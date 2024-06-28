@@ -1,7 +1,9 @@
 function Forgot(){
 
-    const email = document.getElementById("e-mail")
-    const alertEmail = document.getElementById("alert-email")
+    // variaveis
+
+    const email = document.getElementById("e-mail") 
+    const alertEmail = document.getElementById("alert-email") 
      
     // Validação do campo e-mail
 

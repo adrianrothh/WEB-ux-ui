@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+/* Palheta */
 :root{
     --color-01:#3D5885;
     --color-02: #84A1F0;
@@ -12,7 +12,7 @@
     padding: 0px;
     font-family: 'Inter', sans-serif;
 }
-
+/* Background */
 body{
     width: 100%;
     background-image: url(../imgs/bg.PNG);
@@ -36,17 +36,17 @@ section{
     border-radius: 30px;
 
 }
-
+/* Title */
 h1{ 
     font-size: 1.8em;
     padding: 10px;
 }
-
+/* Text */
 h2{
     font-size: 1.35em;
     padding: 10px;
 }
-
+/* Text */
 .e-mail{
     width: 50%;
     padding: 2px;
@@ -55,7 +55,7 @@ h2{
     font-size: 13px;
     margin: 8px;
 }
-
+/* Botão */
 .continuar{
     width: 50%;
     padding: 2px;
@@ -64,13 +64,13 @@ h2{
     font-size: 13px;
     margin: 7px;
 }
-
+/* Botão */
 .voltar{
     width: 50%;
     padding: 2px;
     font-size: 14px;
 }
-
+/* Aletar erro */
 #alert-email{
     color: var(--alert-color);
     font-size: 13px;
